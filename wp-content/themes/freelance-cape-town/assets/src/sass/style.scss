@@ -1,0 +1,1263 @@
+/*
+
+////////////////////////////////////////////////////
+
+Styling for Freelance Cape Town
+
+1. Import Partials
+2. General Layout
+3. Navigation
+4. Buttons
+5. Pages:
+ 5.1 Profile
+ 5.2 About
+ 5.3 Contact
+6. Sign Up
+7. Registration
+8. Hero Sections
+9. Sections:
+  9.1 CTA Banner
+  9.2 Testimonials
+  9.3 Profile Quote
+  9.4 Quick Search
+  9.5 Pricing
+  9.6 Top Freelancers
+  9.7 Features
+10. Dashboard Styles
+11. Footer
+12. Media Queries
+
+
+
+////////////////////////////////////////////////////
+
+*/
+
+/*
+
+////////////////////////////////////////////////////
+
+1. Import Partials
+
+////////////////////////////////////////////////////
+
+*/
+
+@import 'vars';
+@import 'fonts';
+
+
+/*
+
+////////////////////////////////////////////////////
+
+2. General Layout
+
+////////////////////////////////////////////////////
+
+*/
+
+body {
+  font-family: $fctFontReg;
+  font-size: 0.9em;
+}
+
+.section {
+  padding: 4em 0;
+
+  h3 {
+    font-family: $fctFontBold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  .section-lead {
+    margin-bottom: 2em;
+    margin-top: 0.5em;
+  }
+}
+
+.kill-padding {
+  padding-bottom: 1em;
+}
+
+/*
+
+////////////////////////////////////////////////////
+
+3. Navigation
+
+////////////////////////////////////////////////////
+
+*/
+
+.uk-navbar-toggle {
+  color: $fctBlue;
+}
+
+.uk-offcanvas-bar {
+  background: $fctContrastColour;
+}
+
+.uk-nav-offcanvas {
+  margin-top: 1.5em;
+
+  li {
+    a {
+      font-size: 0.85em;
+      text-transform: uppercase;
+      color: $fctDarkGrey;
+    }
+  }
+}
+
+.uk-navbar {
+  background: $fctContrastColour;
+  border-bottom: 6px solid $fctBlue;
+  padding: 1.5em 0;
+
+  .uk-navbar-nav {
+    li {
+
+      a {
+          font-size: 0.85em;
+          text-transform: uppercase;
+          color: $fctDarkGrey;
+      }
+    }
+
+    .uk-button-red {
+      line-height: 2.7;
+
+      &:hover {
+        background: $fctRedHover;
+        border-color: $fctRedHover;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -o-transition: 1s;
+        -ms-transition: 1s;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.uk-navbar-brand {
+  img {
+    width: 170px;
+    height: 33px;
+  }
+}
+
+/*
+
+////////////////////////////////////////////////////
+
+4. Buttons
+
+////////////////////////////////////////////////////
+
+*/
+
+.uk-button-red {
+  background: $fctRed;
+  padding: 5px 25px !important;
+  color: $fctContrastColour !important;
+
+  &:hover {
+    background: $fctRedHover;
+    border-color: $fctRedHover;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    cursor: pointer;
+  }
+}
+
+.uk-button-blue {
+  background: $fctBlue;
+  padding: 5px 15px !important;
+  color: $fctContrastColour !important;
+
+  &:hover {
+      background: $fctBlueHover;
+      border-color: $fctBlueHover;
+      transition: 1s;
+      -webkit-transition: 1s;
+      -moz-transition: 1s;
+      -o-transition: 1s;
+      -ms-transition: 1s;
+      cursor: pointer;
+  }
+}
+
+.uk-button-form {
+  margin-right: 3.2em;
+}
+
+/*
+
+////////////////////////////////////////////////////
+
+5.1 Pages: Profile
+
+////////////////////////////////////////////////////
+
+*/
+
+  .profile-main-content {
+    p {
+      font-family: $fctFontLight;
+      color:$fctDarkGrey;
+      font-size: 1.2em;
+    }
+  }
+
+  .feature-work {
+    margin-bottom: 2em;
+    img {
+      border: 5px solid $fctBlue;
+
+    }
+  }
+
+  .widget {
+    border-top: 5px solid $fctBlue;
+    margin-bottom: 2em;
+    background: $fctGrey;
+    padding: 15px;
+
+    textarea {
+      width: 100%;
+    }
+
+    p span {
+      font-family: $fctFontLight;
+    }
+  }
+
+  .profile-image {
+    border: 5px solid $fctContrastColour;
+  }
+
+  /*
+
+  ////////////////////////////////////////////////////
+
+  5.2. About Page
+
+  ////////////////////////////////////////////////////
+
+  */
+
+
+  .about-heading {
+    font-family: $fctFontLight;
+    em {
+        color: rgba(63,63,63, 0.8);
+    }
+  }
+  .about-text {
+    font-size: 1.1em;
+    font-family: $fctFontReg;
+  }
+
+  /*
+
+  ////////////////////////////////////////////////////
+
+  5.3 Contact Page
+
+  ////////////////////////////////////////////////////
+
+  */
+
+  .contact-page {
+    h4 {
+      font-family: $fctFontBold;
+      color: $fctDarkGrey;
+      font-size: 1.5em;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 2em;
+
+      li {
+        line-height: 2.5em;
+      }
+
+      li i {
+        font-size: 1.2em;
+        color: rgba(0,0,0, 0.4);
+      }
+
+      li a {
+        color: $fctBlue;
+        text-decoration: none;
+        font-size: 1.1em;
+      }
+    }
+    #gmaps {
+      width: 100%;
+      height: 393px;
+    }
+  }
+
+
+  /*
+
+  ////////////////////////////////////////////////////
+
+  6. Sign Up
+
+  ////////////////////////////////////////////////////
+
+  */
+
+  .sign-up-form {
+    margin-top: 2em;
+  }
+
+  .form-sign-up-button {
+    margin-left: 1em;
+    width: 120px;
+    height: 41px;
+  }
+
+
+  /*
+
+  ////////////////////////////////////////////////////
+
+  7. Registration
+
+  ////////////////////////////////////////////////////
+
+  */
+
+  .register-nav {
+    background: $fctGrey;
+
+    .uk-button.uk-active {
+      opacity: 1.0;
+      background: $fctRed;
+    }
+
+    .uk-button {
+      margin: 0 20px;
+      opacity: 0.7;
+
+      i {
+        font-size: 0.8em;
+        margin-left: 5px;
+      }
+    }
+
+    .uk-button:first-child {
+      margin-left: 0;
+    }
+    .uk-button:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .register-form {
+
+    hr {
+        margin: 2em 0 !important;
+    }
+
+    input:not([type]).uk-form-large, input[type].uk-form-large, select.uk-form-large, textarea.uk-form-large {
+      margin: 0.5em 0 1.5em 0;
+      text-align: left;
+    }
+
+  .uk-form select {
+      border-radius: none !important;
+    }
+
+    .uk-button-red {
+
+      i {
+        font-size: 0.8em;
+        margin-left: 5px;
+      }
+
+      .uk-panel {
+        margin: 1em 0;
+        padding: 2em;
+      }
+
+      .uk-panel-title {
+        font-family: $fctFontLight;
+      }
+  }
+
+  }
+
+  .uk-panel-box.register-check {
+    padding: 2em;
+  }
+
+  .radio-form-control {
+    display: inline-block;
+    margin: 0 20px;
+
+    span {
+      font-size: 1.3em;
+    }
+
+  }
+
+  .uk-placeholder {
+    padding: 2em;
+    margin: 2em 0;
+
+    i {
+      font-size: 2em;
+      color: $fctGrey;
+      vertical-align: middle;
+    }
+  }
+
+  /*
+
+  ////////////////////////////////////////////////////
+
+  8. Hero Sections
+
+  ////////////////////////////////////////////////////
+
+  */
+
+  .hero {
+    background-image: url("../../img/hero-bg.jpg");
+    position: relative;
+    padding: 5em 0;
+
+    h1 {
+      color: $fctContrastColour;
+      line-height: 1.2em;
+      margin-bottom: 0.8em;
+      font-family: $fctFontBold;
+    }
+
+    p {
+      color: $fctContrastColour;
+    }
+
+    .lead {
+      padding-bottom: 1em;
+      font-size: 1.4em;
+    }
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 978;
+    padding: 2em 0;
+
+    img {
+      width: 294px;
+      height: 330px;
+      margin: 0 auto;
+    }
+  }
+
+  .hero-profile {
+    background-image: url("../../img/hero-bg.jpg");
+    position: relative;
+    padding: 5em 0;
+
+    .min-header {
+      margin-bottom: 1em;
+    }
+
+    h1 {
+      color: $fctContrastColour;
+      line-height: 1.2em;
+      margin-bottom: 0.5em;
+      font-family: $fctFontBold;
+    }
+
+    h2 {
+      color: $fctContrastColour;
+      line-height: 1.2em;
+      margin-top: 0;
+      margin-bottom: 0.8em;
+      font-family: $fctFontBold;
+    }
+
+    p {
+      color: $fctContrastColour;
+    }
+
+    .lead {
+      padding-bottom: 1em;
+      font-size: 1.4em;
+    }
+  }
+
+  .header-social-media {
+    float: right;
+    margin-top: 10px;
+    li {
+      display: inline;
+      color: $fctContrastColour;
+      font-size: 1em;
+
+      a i{
+        color: $fctContrastColour;
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  .freelance-skill-tags {
+    .uk-button {
+      margin-right:10px;
+    }
+  }
+
+  .hero-content {
+    position: relative;
+    padding: 2em 0;
+
+    .profile-image {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  .hero-page {
+    background-image: url("../../img/hero-bg.jpg");
+    position: relative;
+    padding: 5em 0;
+
+    h1 {
+      color: $fctContrastColour;
+      line-height: 1.2em;
+      margin-bottom: 0;
+      font-family: $fctFontBold;
+    }
+
+    p {
+      color: $fctContrastColour;
+      margin-top: 0.5em;
+      margin-bottom: 0.8em;
+      font-size: 1.2em;
+    }
+
+    .hero-page-breadcrumbs {
+      margin-top: 0;
+      padding-left: 0;
+      li {
+        display: inline;
+        font-family: $fctFontReg;
+        a {
+          color: $fctContrastColour;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+      li:last-child {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .overlay {
+    position: absolute;
+    background: rgba(0,0,0, 0.4);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 977;
+  }
+
+/*
+
+////////////////////////////////////////////////////
+
+9.1 Section: CTA Banner
+
+////////////////////////////////////////////////////
+
+*/
+
+.banner {
+  background: $fctBlue;
+
+  h2 {
+    color: $fctContrastColour;
+    font-size: 2em;
+    font-family: $fctFontBold;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  .cta-btn {
+    margin-left: 2em;
+    margin-top: -10px;
+  }
+}
+
+/*
+
+////////////////////////////////////////////////////
+
+9.2 Section: Testimonial
+
+////////////////////////////////////////////////////
+
+*/
+
+.testimonials {
+  background: #f5f5f5;
+
+  .uk-dotnav {
+    list-style-type: none;
+    margin-top: 2em;
+  }
+
+  .test-quote {
+    font-size: 2em;
+    line-height: 1.4em;
+
+    em {
+      color: $fctDarkGrey;
+    }
+  }
+  .uk-dotnav>*>* {
+    display: inline;
+  }
+}
+
+/*
+
+////////////////////////////////////////////////////
+
+9.3 Section Profile Quote
+
+////////////////////////////////////////////////////
+
+*/
+
+  .profile-quote {
+      background: $fctBlue;
+      color: $fctContrastColour;
+
+      .section-lead {
+        font-size: 1.5em;
+      }
+  }
+
+  /*
+
+////////////////////////////////////////////////////
+
+9.4 Section: Quick Search
+
+////////////////////////////////////////////////////
+
+*/
+
+.quick-search {
+  background: $fctGrey;
+}
+
+.uk-form-button-red {
+  padding: 3px 35px !important;
+  border: 1px solid $fctRed;
+  font-size: 1em;
+  i {
+    font-size: 0.9em;
+  }
+}
+
+input:not([type]).uk-form-large, input[type].uk-form-large, select.uk-form-large, textarea.uk-form-large {
+  font-size: 1em;
+  padding-left: 10px;
+}
+
+/*
+
+////////////////////////////////////////////////////
+
+9.5 Section: Pricing
+
+////////////////////////////////////////////////////
+
+*/
+
+.pricing {
+
+  .section-lead {
+    margin-bottom: 3em;
+  }
+
+  .uk-panel-box {
+    padding: 0 0 15px 0;
+    position: relative;
+
+    &:hover {
+        transform:scale(1.05);
+        -webkit-transform:scale(1.05);
+        -moz-transform:scale(1.05);
+        -o-transform:scale(1.05);
+        -ms-transform:scale(1.05);
+        transition: transform ease-in 0.5s;
+        -webkit-transition: transform ease-in 0.5s;
+        -moz-transition: transform ease-in 0.5s;
+        -o-transition: transform ease-in 0.5s;
+        -ms-transition: transform ease-in 0.5s;
+    }
+  }
+
+  .uk-panel ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin: 2em 0 0 0;
+
+    li {
+      color: $fctBlue;
+      line-height: 4em;
+    }
+  }
+
+  .uk-panel-title {
+    background: $fctBlue;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: $fctContrastColour;
+  }
+
+  .pricing-label {
+    font-size: 3em;
+    color: $fctBlue;
+
+    small {
+      font-size: 0.4em;
+    }
+  }
+
+  .uk-button-pricing-table {
+    color: $fctContrastColour;
+    background: $fctRed;
+    text-align: center;
+    padding: 10px 30px;
+    margin: 0 auto;
+    width: auto;
+  }
+
+  }
+
+/*
+
+////////////////////////////////////////////////////
+
+9.6 Section: Top Freelancers
+
+////////////////////////////////////////////////////
+
+*/
+
+
+.top-freelancers {
+
+  .fct-title {
+    font-family: $fctFontBold;
+    margin-bottom: 0;
+
+    small span, small i {
+      font-size: 0.8em;
+    }
+
+    small i {
+      color: #d9b547;
+    }
+
+  }
+
+  .border-highlight {
+    border-bottom: 5px solid $fctRed;
+  }
+
+  .fct-industry-tag {
+    font-family: $fctFontLight;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+  }
+
+  .fct-btn {
+    color: #fff;
+    background: $fctBlue;
+    padding: 9px 13px;
+  }
+
+  .fct-caption {
+    margin-top: 1em;
+  }
+}
+
+.freelance-archive {
+  .top-freelancers {
+    .freelancer-item {
+      margin-bottom: 2em;
+    }
+  }
+}
+
+/*
+
+////////////////////////////////////////////////////
+
+9.7 Section: Features
+
+////////////////////////////////////////////////////
+
+*/
+
+.et-icon {
+  font-size: 4em;
+  color: $fctDarkGrey;
+}
+
+.feature-heading {
+  margin-top: 0.8em;
+  margin-bottom: 0.5em;
+  font-family: $fctFontBold;
+}
+
+.feature-text {
+  margin-top: 0;
+}
+/*
+
+////////////////////////////////////////////////////
+
+10. Dashboard Styles
+
+////////////////////////////////////////////////////
+
+*/
+
+.dashboard-nav {
+  background: #e1e1e1;
+
+  h5 {
+    margin-bottom: 0;
+    line-height: 1;
+  }
+}
+
+.uk-table {
+
+  td {
+    vertical-align: middle;
+
+    p {
+      margin: 0;
+    }
+
+    i {
+      font-size: 1.2em;
+    }
+  }
+
+  .fa-circle-o, .fa-circle {
+    color: $fctBlue;
+  }
+
+  .fa-folder-open-o {
+    color: $fctBlue;
+  }
+  .fa-trash-o {
+    color: $fctRed;
+  }
+
+thead tr {
+  background: $fctBlue;
+}
+
+th {
+  color: $fctContrastColour;
+}
+
+}
+
+.message-reply {
+  h5 {
+    color: #c8c8c8;
+    margin-top: 0;
+  }
+}
+
+.reply-form {
+  margin-top: 2em;
+  textarea {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+.profile-dashboard-intro {
+  padding: 1em 1em 0em 0em;
+}
+
+.profile-picture {
+  margin-right: 10px;
+}
+.dashboard-link-container {
+  background: #e1e1e1;
+}
+.dashboard-link-container:hover {
+  background: $fctBlue;
+  border-left-color: $fctBlue;
+  border-right-color: $fctBlue;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+.dashboard-billing .uk-panel-box {
+  padding: 4em;
+
+  p {
+    font-size: 1.2em;
+  }
+}
+
+.dashboard-link {
+  line-height: 4.2em;
+  color: $fctDarkGrey;
+  font-size: 1.1em;
+
+  &:hover {
+    color: $fctContrastColour;
+    text-decoration: none;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+  }
+}
+
+.dashboard-link-container:first-child {
+  border-left: 1px solid rgba(0,0,0, 0.2);
+  border-right: 1px solid rgba(0,0,0, 0.2);
+}
+
+.dashboard-link-container:nth-child(2),.dashboard-link-container:nth-child(3), .dashboard-link-container:nth-child(4) {
+  border-right: 1px solid rgba(0,0,0, 0.2);
+}
+
+/*
+
+////////////////////////////////////////////////////
+
+11. Footer
+
+////////////////////////////////////////////////////
+
+*/
+
+.main-footer {
+  background: $fctBlue;
+  color: $fctContrastColour;
+  padding: $footerPadding;
+  ul {
+    padding-left: 0;
+    li {
+      list-style: none;
+      line-height: 2em;
+
+      a {
+        color: $fctContrastColour;
+        padding-left: 0.8em;
+      }
+    }
+  }
+
+  h3 {
+    text-transform: uppercase;
+    color: $fctContrastColour;
+    font-family: $fctFontBold;
+    letter-spacing: 2px;
+    margin-bottom: 0.8em;
+  }
+
+  .mini-post {
+    margin-bottom: 1em;
+
+    h4 {
+      color: $fctContrastColour;
+      margin: 0;
+      font-family: $fctFontBold;
+    }
+    p {
+      margin: 0;
+    }
+
+    .mini-post-image {
+      border: 2px solid $fctContrastColour;
+    }
+  }
+}
+
+.sub-footer {
+  background: $fctDarkGrey;
+  color: $fctContrastColour;
+  padding: 1.8em 0;
+  ul {
+    padding-left: 0;
+    li:last-child {
+      margin-right: 0;
+    }
+    li {
+      display: inline;
+      margin-right: 0.5em;
+      a {
+        color: $fctContrastColour;
+      }
+    }
+  }
+}
+
+/*
+
+////////////////////////////////////////////////////
+
+7. Media Queries
+
+////////////////////////////////////////////////////
+
+*/
+
+/* Max Width 1024 Landscape */
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+    .intro-text h5 {
+      font-size: 0.8em;
+      margin-top: 8px;
+    }
+  }
+
+/* Max Width 768 */
+@media only screen and (max-width: 768px) {
+
+  .feature-item, .freelancer-item, .uk-panel, .footer-widget {
+    margin-bottom: 2em !important;
+  }
+
+  input:not([type]).uk-form-large, input[type].uk-form-large, select.uk-form-large, textarea.uk-form-large {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .pricing .uk-panel ul li {
+    line-height: 3em;
+  }
+
+  .pricing .uk-panel ul {
+    margin-bottom: 3em;
+  }
+
+  .testimonials .uk-dotnav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .hero-profile {
+    .profile-image {
+      margin-bottom: 2em;
+    }
+  }
+
+  .intro-text h5 {
+    font-size: 0.7em;
+    margin-top: 8px;
+  }
+}
+
+/* Max Width 480 Landscape */
+@media only screen and (max-width: 480px) and (orientation: landscape) {
+  .feature-text {
+    padding:0 2em;
+  }
+}
+
+/* Max Width 736 Landscape */
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+  .header-social-media {
+    float: left;
+    padding-left: 0;
+    li {
+      display: inline-block;
+      margin-right: 5px;
+    }
+  }
+
+  .dashboard-link-container:first-child, .dashboard-link-container:nth-child(2), .dashboard-link-container:nth-child(3), .dashboard-link-container:nth-child(4) {
+    border: none;
+  }
+
+  .message-reply img {
+    margin-bottom: 1.5em !important;
+  }
+}
+
+/* Max Width 480 */
+@media only screen and (max-width: 480px) {
+
+    .uk-button-group {
+        display: block;
+      .uk-button {
+        width: 100% !important;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 1em;
+      }
+    }
+
+    .freelance-skills {
+      font-size: 1.3em;
+    }
+
+    .header-social-media {
+      float: left;
+      padding-left: 0;
+      li {
+        display: inline-block;
+        margin-right: 5px;
+      }
+    }
+
+    .profile-quote {
+
+      .section-lead {
+        margin-bottom: 0.5em;
+        font-size: 1.3em;
+      }
+
+    }
+
+    .register-nav .uk-button {
+      margin: 0 5px;
+    }
+
+    .register-nav .uk-button-red {
+      padding: 8px !important;
+    }
+
+    .banner h2 {
+      font-size: 1.5em;
+    }
+
+    .uk-button-form {
+      margin-right: 0;
+    }
+
+    .border-highlight {
+      display: block;
+      width: auto;
+      margin: 0 auto;
+    }
+
+    .fct-title, .fct-industry-tag {
+      text-align: center;
+    }
+
+    .fct-btn {
+      display: inline;
+    }
+
+    .center-text {
+      text-align: center;
+    }
+
+    .section {
+      padding: 2em 0;
+    }
+
+    .section-lead {
+      font-size: 0.8em;
+    }
+
+    .hero {
+      padding: 2.5em 0 2.5em 0;
+    }
+
+    .hero-page {
+      .hero-page-title {
+        text-align: left;
+      }
+
+      .hero-page-breadcrumbs {
+        li a {
+          display: inline;
+        }
+      }
+    }
+
+    .testimonials .test-quote {
+      font-size: 1.3em;
+      line-height: 1.5em;
+    }
+
+    .hero-content h1, .lead {
+      margin-top: 1em;
+      text-align: center;
+      font-size: 2em;
+    }
+
+    .sub-footer-nav, .colophon {
+      text-align: center;
+      float: none;
+    }
+
+    .hero-content a {
+      display: block;
+      width: auto;
+      margin: 0 auto;
+    }
+
+    .banner {
+      text-align: center;
+
+      .cta-btn {
+        margin-left: 0;
+        margin-top: 1em;
+      }
+    }
+
+    .dashboard-link-container:first-child, .dashboard-link-container:nth-child(2),.dashboard-link-container:nth-child(3), .dashboard-link-container:nth-child(4) {
+      border: none;
+    }
+    .dashboard-nav h5 {
+      text-align: left;
+    }
+
+    .intro-text {
+      float: none;
+    }
+
+    .message-reply img {
+      margin-bottom: 1.5em !important;
+    }
+
+  }

@@ -1,0 +1,152 @@
+# Translation of Themes - thirteenmag in English (UK)
+# This file is distributed under the same license as the Themes - thirteenmag package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-27 16:58:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Themes - thirteenmag\n"
+
+#. Description of the plugin/theme
+msgid "A theme for blogging"
+msgstr "A theme for blogging"
+
+#. Theme Name of the plugin/theme
+msgid "thirteenmag"
+msgstr "thirteenmag"
+
+#: archive.php:29
+msgid "Tag"
+msgstr "Tag"
+
+#. Template Name of the plugin/theme
+msgid "Fullwidht Template"
+msgstr "Fullwidth Template"
+
+#: search.php:12
+msgid "Sorry, content not found"
+msgstr "Sorry, content not found"
+
+#: post-loop.php:41
+msgid "No posts were found."
+msgstr "No posts were found."
+
+#: pagenav.php:16
+msgid "<span class=\"alignright\">Newer posts &rarr;</span>"
+msgstr "<span class=\"alignright\">Newer posts &rarr;</span>"
+
+#: pagenav.php:15
+msgid "<span class=\"alignleft\">&larr; Older posts</span>"
+msgstr "<span class=\"alignleft\">&larr; Older posts</span>"
+
+#: header.php:65
+msgid "navigation"
+msgstr "Navigation"
+
+#: functions.php:295
+msgid "Website"
+msgstr "Website"
+
+#: functions.php:291
+msgid " (required) (will not be published)"
+msgstr " (required) (will not be published)"
+
+#: functions.php:291
+msgid "Email"
+msgstr "Email"
+
+#: functions.php:287
+msgid " (required)"
+msgstr " (required)"
+
+#: functions.php:287
+msgid "Name"
+msgstr "Name"
+
+#: functions.php:265
+msgid "Allowed Tags"
+msgstr "Allowed Tags"
+
+#: functions.php:245
+msgid "Your comment is awaiting moderation."
+msgstr "Your comment is awaiting moderation."
+
+#: functions.php:227
+msgid "AUTHOR"
+msgstr "Author"
+
+#: functions.php:209
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:134
+msgid "Main Menu"
+msgstr "Main menu"
+
+#: functions.php:16
+msgid "Top Sidebar"
+msgstr "Top Sidebar"
+
+#: comments.php:39
+msgid "Newer Comments &rarr;"
+msgstr "Newer Comments &rarr;"
+
+#: comments.php:38
+msgid "&larr; Older Comments"
+msgstr "&larr; Older Comments"
+
+#: comments.php:28
+msgid "% Comments"
+msgstr "% Comments"
+
+#: comments.php:28
+msgid "One Comment"
+msgstr "One Comment"
+
+#: comments.php:28
+msgid "No Comments"
+msgstr "No Comments"
+
+#: comments.php:16
+msgid "This post is password protected. Enter the password to view the comments."
+msgstr "This post is password protected. Enter the password to view the comments."
+
+#: comments.php:7
+msgid "You cannot access this page directly."
+msgstr "You cannot access this page directly."
+
+#: archive.php:81 page.php:33 single.php:30 template-fullwidth.php:22
+msgid "404 Error&#58; Not Found"
+msgstr "404 Error&#58; Not Found"
+
+#: archive.php:71
+msgid "Blog Archive"
+msgstr "Blog Archive"
+
+#: archive.php:67
+msgid "Author Archive"
+msgstr "Author Archive"
+
+#: archive.php:63
+msgid "Search results"
+msgstr "Search results"
+
+#: archive.php:38 archive.php:46 archive.php:54
+msgid "Archive For"
+msgstr "Archive For"
+
+#: archive.php:19
+msgid "Category"
+msgstr "Category"
+
+#. Author URI of the plugin/theme
+msgid "http://www.devswave.com"
+msgstr "http://www.devswave.com"
+
+#. Author of the plugin/theme
+msgid "Arif hassan"
+msgstr "Arif Hassan"

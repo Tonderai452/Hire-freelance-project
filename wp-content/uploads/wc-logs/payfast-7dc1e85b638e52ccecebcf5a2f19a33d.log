@@ -1,0 +1,116 @@
+04-07-2016 @ 07:27:46 - 
+----------
+PayFast ITN call received
+04-07-2016 @ 07:27:46 - Get posted data
+04-07-2016 @ 07:27:46 - PayFast Data: Array
+(
+    [m_payment_id] => 283
+    [pf_payment_id] => 231800
+    [payment_status] => COMPLETE
+    [item_name] => Freelance Cape Town - 283
+    [item_description] => New order from Freelance Cape Town
+    [amount_gross] => 1000.00
+    [amount_fee] => -22.80
+    [amount_net] => 977.20
+    [custom_str1] => wc_order_5705efb9e1929
+    [custom_str2] => WooCommerce/2.5.5; http://freelance.capetown
+    [custom_str3] => 283
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Test
+    [name_last] => User 01
+    [email_address] => sbtu01@payfast.co.za
+    [merchant_id] => 10000100
+    [signature] => 1746950d697c4f5feb24c947f52b27c8
+)
+
+04-07-2016 @ 07:27:46 - Verify security signature
+04-07-2016 @ 07:27:46 - Signature = valid
+04-07-2016 @ 07:27:46 - Purchase:
+WC_Order Object
+(
+    [order_type] => simple
+    [id] => 283
+    [post] => WP_Post Object
+        (
+            [ID] => 283
+            [post_author] => 1
+            [post_date] => 2016-04-07 07:27:21
+            [post_date_gmt] => 2016-04-07 05:27:21
+            [post_content] => 
+            [post_title] => Order &ndash; April 7, 2016 @ 07:27 AM
+            [post_excerpt] => 
+            [post_status] => wc-pending
+            [comment_status] => closed
+            [ping_status] => closed
+            [post_password] => order_5705efb9df511
+            [post_name] => order-apr-07-2016-0527-am
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2016-04-07 07:27:21
+            [post_modified_gmt] => 2016-04-07 05:27:21
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://freelance.capetown/?post_type=shop_order&p=283
+            [menu_order] => 0
+            [post_type] => shop_order
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+        )
+
+    [order_date] => 2016-04-07 07:27:21
+    [modified_date] => 2016-04-07 07:27:21
+    [customer_message] => 
+    [customer_note] => 
+    [post_status] => wc-pending
+    [prices_include_tax] => 
+    [tax_display_cart] => excl
+    [display_totals_ex_tax] => 1
+    [display_cart_ex_tax] => 1
+    [formatted_billing_address:protected] => 
+    [formatted_shipping_address:protected] => 
+)
+
+04-07-2016 @ 07:27:46 - Verify data received
+04-07-2016 @ 07:27:46 - Host = https://sandbox.payfast.co.za/eng/query/validate
+04-07-2016 @ 07:27:46 - Params = Array
+(
+    [m_payment_id] => 283
+    [pf_payment_id] => 231800
+    [payment_status] => COMPLETE
+    [item_name] => Freelance Cape Town - 283
+    [item_description] => New order from Freelance Cape Town
+    [amount_gross] => 1000.00
+    [amount_fee] => -22.80
+    [amount_net] => 977.20
+    [custom_str1] => wc_order_5705efb9e1929
+    [custom_str2] => WooCommerce/2.5.5; http://freelance.capetown
+    [custom_str3] => 283
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Test
+    [name_last] => User 01
+    [email_address] => sbtu01@payfast.co.za
+    [merchant_id] => 10000100
+)
+
+04-07-2016 @ 07:27:47 - Response:
+Array
+(
+    [VALID] => 
+)
+
+04-07-2016 @ 07:27:47 - Check data against internal order
+04-07-2016 @ 07:27:47 - Check status and update order
+04-07-2016 @ 07:27:47 - - Complete

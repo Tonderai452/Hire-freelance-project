@@ -1,0 +1,727 @@
+[5/15/2017 7:48:59 PM] Brandon Pinney: Hi Hement,
+
+Thanks for taking the time to review the job posting and submit you're cover letter. After reviewing the candidates I believe you might be the best fit for the job.
+
+I just wanted to give some clarifcation on the project before we proceed, I didn't want to make all of the details of my project public. So the "groups" I was referring to are Fantasy Sports Leagues (Fantasy Football is the main focus, but other sports will be included), which are groups in a sense. These are leagues that commissioners will be putting together and looking for potential owners to join the league to fill it up. So, most leagues for example consist of 12 teams, sometimes more or sometimes less. So they might be looking for 11 other people to join their league. Or potentially less if they already have a few people they know who have joined. So for example, their league might be viewed on the website as 5/12 spots filled. The commissioner of the league, the person who set it up, needs to be able to edit this league when they login if circumstances change.
+
+I also gave examples of some of the different attributes of the leagues in my original post. Some of the league attritbutes that a commissioner will need to select and potential owners can view/search will include, but are not limited to, things like: scoring (ppr, .5 ppr, standard), hosting site (ESPN, Yahoo, MFL, CBS, etc.), payment method (leaguesafe, paypay, check), Superflex (Yes or not), Roster Spots (This will range from 12-50+), Buy-in ($1-$1000+). These are just some examples to give you a better idea of what I am looking for. There will be more options than this I will require but I just wanted to give you some better insight.
+
+Let me know if this sounds like something you are still interested in working on and confident you can accomplish.
+
+How long do you think the website would take to complete?
+
+Please let me know if you have any questions.
+
+Thanks,
+Brandon
+[5/16/2017 1:52:17 PM] Hemant Khatri: Hello Bradon,
+Greetings!
+
+Thanks for updates.
+I am reviewing your updates and will get back to you with time and cost for doing this job.
+
+Thanks and Regards,
+Hemant K.
+Vivacity InfoTech Pvt. Ltd.
+An ISO 9001:2015 Certified Company
+[5/16/2017 4:44:53 PM] Hemant Khatri: Hello Brandon,
+Greetings!
+
+Hope you are doing Great!
+
+Thanks for providing more information for your project details. I have reviewed your project details and have gone through it. I got to know that you want to create a new sports fantasy website. You want the users to register for the website, create their groups and then they have to pay for the group once the group is approved by the group owner. After the group is approved only, users are able to view other group information. Once that user is charged then all the information related to that user and users who have joined that group will be automatically send to them on email. For implementing Group functionality we can use “BuddyPress” plugin which provide us the functionality of creating groups from front-end but it might not provide all the functionality that you want but we can use this as a starting base. Please have a look at BuddyPress plugin “https://wordpress.org/plugins/buddypress/”
+
+I am suggesting you theme based on Directory:-
+
+- https://themeforest.net/item/directory-portal-wordpress-theme/3840053
+- https://themeforest.net/item/directory-multipurpose-wordpress-theme/10480929
+- https://preview.ait-themes.club/theme/directory2/
+
+Please have a look at these website and let me know your response.
+
+Here are the details of the pages that you want:-
+
+- Homepage:-
+In Home Page, there will be logo, mission statement, links to login and register, space for advertising and it will have some searching functionality which allow users to select a directory based on a certain sport.
+
+- The Directory Page:-
+Once a user selects the specific sport directory they are looking for, they will be taken to the directory page which lists all of the groups available for them to join. It is important to note that, depending on the sport, these groups may have potentially around 20 different group specific details that they can search by.
+
+Advanced Search Page:-
+This is an extension of the directory page that allows a user to breakdown a directory based on specific dynamics they are searching for in a group.
+
+Registration Page:-
+In this page, we will have these fields username, password, email and their twitter handle. There will have to be some sort of payment collection for every user and their info will be private untill they pay for the fee. And also you want the users to register with @ symbol in their name.
+
+
+Profile Page:
+
+In this page, users will be able to edit their profile when they are signed in and then can see the pending groups that have requested to join and their status. Users can edit their group and change parameters of the group and if any change made into this group then email will be sent to all users who have opted for this group.
+
+Group Information Page:-
+
+This is a page where all the group details are there and there will be a button to “Join Group”, and once opted for the group then that user is charged and after suceessful payment only user can create the group.
+
+Create Group Page:-
+
+Users need to be able to create a group based on the specific sport they are looking to create it for. So their first option will be to select a sport (football, baseball, hockey, basketball), once they select that they will be prompted to enter the specific details for each sub-category of their group. This group that is created then needs to be entered into the website’s database that can be seen by all of the other users.
+
+These are all the pages that you want to build but before providing any estimtate, I would like to ask few queries:-
+
+1. User need to pay for the group to be created so please do let me which payment gateway do we need to implement for the payment?
+
+2. Do we have to ask for payment at the time of registation or group creation or for both?
+
+3. Please do let me know if you have any designs ready for the above pages or not.
+
+4. Please explain more about different attributes of the leagues as I do not get exactly what you want here.
+
+Please review my above message and let me know your views and then I would be able to provide you exact estimate.
+
+Looking forward for your reply!
+
+Thanks & Regards
+Hemant K.
+Vivacity InfoTech Pvt. Ltd.
+An ISO 9001:2015 Certified Company
+[5/17/2017 6:32:06 AM] Brandon Pinney: Thanks for getting back to me Hement.
+
+The BuddyPress plugin looks good, and if you think you can modify it for our purposes then I am all for it.
+[5/17/2017 6:32:28 AM] Brandon Pinney: Sorry, I wasn't finished with my message and will send the rest of it over shortly.
+[5/17/2017 7:12:24 AM] Brandon Pinney: The directory themes look good, I'm still undecided on which one. Keep in mind we do not need any mapping functionality. Also, I envisioned the directory of fantasy leagues in an almost excel spreadsheet type of view, but am open to other views too if they look better. I have some very rough mock ups I will send you tomorrow.
+
+You have a very good understanding of what I am looking for, here are a few notes on some of the pages to help clarify:
+
+Registration Page- I do not want users to have to enter payment collection info when they register. I only want them to have to enter payment information when select to join a group. Also - I do not want them to be able to enter an @ symbol in their username (this way they can't enter their email address or twitter handle as their username).
+
+Profile Page - All of this sounds good. However, I also want users to have the option to withdraw from a league (group) if the league creator has not finalized it yet.
+
+Group Information Page- Yes, all of the group details would be listed and there would be a "Join League" option. Once the user selects to join they will be prompted to enter their CC info and will be notified they will only be charged once the League Commissioner (the user that created the league) decides to finalize it.
+
+1. For the user payment gateway I was thinking PayPal and WooCommerce. However, I am open to suggestions if you feel something else would work better.
+
+2. We only have to ask for payment at the time a user selects to "Join League". Any user who creates a league will not be charged, only the users who are looking to join the league are charged.
+
+3. I have my logo ready, I do not have any designs. I have some very rough sketches of what I envisioned, but I'm not the greatest artist. I've attached them to this message, but they are more of a rough concept and am open to designs and directories much different than this depending on what themes might work best for this.
+
+4. I've attached a screenshot of an excel sheet that shows some of the different attributes I am talking about. So for example, you can see under "Hosting Site" that there are 3 different hosting sites listed: ESPN, Yahoo, and MFL. These are some of the more popular hosting sites, but there are several more that will need to be included as well such as NFL.com, CBS, Fantrax and potentially more. So some of the attributes are words, and as you can see, some would be dollar amounts, such as the "entry fee." Does this help clarify what I am looking for?
+
+The reason these attributes are important is because people searching for fantasy sports leagues may only prefer to play in a 12-team league with a $50 entry fee that is hosted on ESPN with a Payment Method via LeagueSafe.
+
+Let me know if I can expand on anything else further.
+
+Thanks,/
+
+[5/17/2017 4:00:50 PM] Hemant Khatri: Hello Brendon,
+Greetings!
+
+Hope you are doing Great!
+
+Thanks for providing reply to my queries. I have gone through your message and have looked into the provided screenshots. The screenshots are not clear though but I got the idea as what you were saying. I would like to notify here is that this whole project needs customization and this will not be done only with the BuddyPress plugin or simply setting up other plugins.
+
+For the payment thing, we can use WooCommerce but WooCommerce is a plugin that we used for creating shop and can manage products and in our case we can not use WooCommerce as we are not selling any products so we have to build the payment functionality. We have to first finalize theme and then we have to work on designing. Please do let me know if all the pages need to be designed by us or you will provide me some design files.
+
+So for this whole tasks I think it would take around 120-130 hours (4-5 weeks) that will cost you around $1500 as the designs are not ready yet and need to customize the plugin a lot so please review this and do let me know if that is comfortable for you.
+
+Looking forward for your reply!
+
+Thanks & Regards
+Hemant K.
+Vivacity InfoTech Pvt. Ltd.
+An ISO 9001:2015 Certified Company
+[5/18/2017 6:27:26 AM] Brandon Pinney: Hi Hemant
+
+Thanks for getting back to me and providing a transparent idea of what you think it would take you to complete this.
+
+$1500 is quite a bit more than I had originally intended to spend and double your original bid. I understand the extra work of building a payment functionality since you say WooCommerce will not work. I guess I'm confused about your questions regarding designing pages and the extra cost associated with that. If we are using a Wordpress theme with designs already built in, there really is no need for design. Unless I'm misunderstanding what you are saying when you mean design?
+
+So for now I'm going to contact some other candidates and see if they are able to provide what I'm looking for at a price closer to their original bids and my posted price.
+
+I may contact you later if I change my mind. Thanks for reviewing everything, but for now I'm going to look elsewhere.
+
+Thanks,
+Brandon
+[5/18/2017 1:13:28 PM] Hemant Khatri: Hello Brendon,
+Greetings!
+
+Thanks for updates. I understand your concern.
+Please let me know if you did not found any suitable person or any buch of task you want me to work upon. I hope I will get few tasks instead of nothing :smile:
+Please review some of my points too, I hope this will help for taking decision.
+
+We can pick any free theme for reducing cost, I just wanted to see will there any specific desings or Free can be used? If a free theme can be used then we do not needs to concern about designs, My concerns was for every page layouts in terms of look and feel.
+
+If we go together, then we have to discuss how things will be inter-related to each other (user, league, payments, commissioner, category, league fieds), this process is important and may need 4-5 days in begining to discuss and trying with best options. This may not be once for all, we both have to try 2-3 times to see how this works and best for users and easy to use and manage by admin of website.
+
+There will be these modules I have to develop in this job and most of them needs to develop from scratch:
+
+- A payment gateway by which all payments will be done
+- Payment Hold while joining any League by a user
+- Payment deduction once commissionar finalize a league
+- Email Notification
+- of creating league by a user
+- Notifying to admin for a new league created
+- Approval or disapproval of league by admin
+- Approval or disapproval of a League by Commission
+- Notification to a use who joins any league
+
+- Payments settings for admin
+- Payments will go to directly by Users to commissionar user or first it will goes to Admin?
+- Will there any commission of admin for such features providing? if so how much? Will admin needs this setting to change it later on?
+
+- Invoices or payments satus of every transactions
+- All master options in League(Payment status, Hosted On, Team size) to be available for admin to change or they can be hard coded?
+
+
+All these can be picked with some free plugins, I have used many, so I have good idea of plugins, It depends on you if you accept them how they work, if needs any customizations at code level then may be some time needed to do that, But I am sure there are many that can help for these features.
+
+- Login
+- Register
+- Profile Edit
+- Reset Password
+- Email notifications
+
+
+Questions:
+
+- Will all members will have same features to use? I think a commissionar user will have different feature.
+
+- Will admin needs to appoint any commissionar at his end, or a commissionar will be a user who create any league?
+
+
+This is why I quoted a rough cost of $1500, becuase they will need around 4-5 weeks of work from start to end as a finished running website.
+
+I will look forward to your reply.
+
+Thanks & Regards
+Hemant K.
+Vivacity InfoTech Pvt. Ltd.
+An ISO 9001:2015 Certified Company
+[5/19/2017 2:23:00 AM] Brandon Pinney: In response to your questions:
+
+-No payments go to the commissioner, the payment goes to the website (me). The payment is a finder's fee for connecting the commissioner with the users filling their league.
+
+-Yes, all master options would need to be available for the commissioner (creator of the league) to change. They should be able to 'edit league' under their profile.
+
+-Yes, I'd like all members will have the same features to use. So if someones joins as a user they should be able to both join leagues and create a league if they so choose.
+
+-If you're referring to me as the Admin (the person running the website), I do not want to have to appoint a commissioner. A user should be able to join and there should be an option for them to 'create league'. Once they create a league, they become the commissioner of that league. The commissioner is just the person who is in charge of creating and running that league (group).
+
+I'm not quite sure you're understanding what I'm looking for.
+
+In regards to the payment gateway, would WooCommerce be an option if I sold users a 'credit' that could be applied on the website? Say for example, the user can purchase a credit, and then they could use that credit to join a league. Is that something that would work?
+
+If that is an option, would that reduce the amount of your proposal?
+
+Thanks,
+Brandon
+[5/19/2017 1:17:25 PM] Hemant Khatri: Hello Brandon,
+Greetings!
+
+Hope you are doing Great!
+
+Thanks for providing answers to my queries. Seems like we are closing gaps now, I hope we can sort this out if we do a Skype discussion.
+
+-No payments go to the commissioner, the payment goes to the website (me). The payment is a finder's fee for connecting the commissioner with the users filling their league.
+
+Reply:- Ok. I got here is that the payment will be send to the admin of the website and not to the commissioner and this is the fee for finder to join a league.
+
+-Yes, all master options would need to be available for the commissioner (creator of the league) to change. They should be able to 'edit league' under their profile.
+
+Reply:- I think we can not provide all the master option to the commissioner. What I think is that all the master options would be editable by admin (web admin/You) and you will create all the options in the backend and commissioner will have the ability to pick from those to create his league. Providing commissioner to to change the options would make the system a bit complex and there are many duplicate of same thing, or making system (Option for adding lable, values, validations etc) will create complexcity for use. I think we can sort this out once we discuss over Skype.
+
+-Yes, I'd like all members will have the same features to use. So if someones joins as a user they should be able to both join leagues and create a league if they so choose.
+
+Reply:- Ok. We will provide all the users to have same features and they can decide if they want to join or create a league.
+
+-If you're referring to me as the Admin (the person running the website), I do not want to have to appoint a commissioner. A user should be able to join and there should be an option for them to 'create league'. Once they create a league, they become the commissioner of that league. The commissioner is just the person who is in charge of creating and running that league (group).
+
+Reply:- Ok fine.
+
+
+In regards to the payment gateway, would WooCommerce be an option if I sold users a 'credit' that could be applied on the website? Say for example, the user can purchase a credit, and then they could use that credit to join a league. Is that something that would work?
+
+Reply:- If you would like to have the credit system integrated then Woocommerce can help, plugin is available for it (free & paid both). We can try with free first.
+For credit system implementation there are plugins available. I am providing you the list. Please have a look at them.
+
+1. https://medium.com/@AddWebSolution/wp-credit-system-with-woocommerce-5b3143150733
+2. https://woocredits.com/
+3. https://wordpress.org/plugins/woo-download-credits/
+
+Also I am suggesting you some free themes which we can take for a startup process like:-
+
+1. https://colorlib.com/shapely/
+2. https://colorlib.com/newspaper-x/
+3. https://colorlib.com/illdy/
+4. http://demos.cpothemes.com/ascendant/
+
+As far as amount is concerned we can do one thing like we can go with some free themes and develop our basic functionality like:
+- All content pages
+- Login
+- Register
+- Edit Profile
+
+These all above can be done quickly with help of free theme and free plugin without any code.
+
+But these all will be develop by custom code:
+- Create Leagues only after login and joining by a other user.
+- Joinging by other users
+- List of Leagues with their status that I created
+- List of Leagues that I joined
+- Searching form for leages (Advance & Mini search)
+- Categorizations of leages and dispaly them on front end
+
+For setting scope of job we need to set the list of tasks that we need to get done so that we can finalize on what tasks are most time consuming and can set batch of tasks easy to complex way. I will easy first and will keep discusing with you for next and will have more clear idea of each and everything. We can go milestone wise.
+
+From all the tasks I can divide the tasks in milestones and then can work on them done accordingly. Regarding price yes $1500 is maximum price, this can be done in less if you accepts the plugin working, or like the theme I suggest. So if you agree then we can start first batch of task and see how things goes.
+
+I will keep you suggesting plugins for required things, and you and me can then discuss what is best and can pickup to finish this job in less time and cost.
+
+Please review this and do let me know your views.
+
+Looking forward for your reply!
+
+Thanks & Regards,
+Hemant K.
+Vivacity Infotech Pvt. Ltd.
+An ISO 9001:2015 Certified Company
+[5/19/2017 7:18:05 PM] Brandon Pinney: Hi Hemant,
+
+Thanks for getting back to me with the information. I would be fine with using themes as I suggested in my original job posting, I'm actually willing to pay for a better theme to reduce the amount of work. It was my thinking that a professional, directory theme would be best. And I would be fine with using plug ins as well.
+
+I think we have a miscommunication in regards to the master options being available to change. I don't need the commissioner to be able to add new master options to the website...I just want them to be able to edit their league based on the options we have hard-coded into the website. For example, let's say they originally setup their league to be hosted on ESPN with a $50 entry fee...I just need them to be able to edit their league based on the other options we have available for them to select. If this commissioner changed their mind and decided they wanted to host their league on Yahoo (which is already listed as a selectable option on the website) and change their entry fee to $100. Hopefully that makes sense, I dont need the commissioner to be able to add master options that are not already listed as options on the website. I think this would reduce some of the coding for you.
+
+As of right now, your price to complete this is a hang up for me. $1500 is too much. I have a lot of other bids between $700-$800. I have a message out to another free lancer at the moment and am waiting to hear back from him.
+
+I appreciate all of the communication, but I'm going to continue to look for someone who can complete my project closer to my budget. I may message you later if I change my mind.
+
+Thanks,
+Brandon
+
+[5/20/2017 4:53:53 PM] Hemant Khatri: Hello Brandon,
+Greetings!
+
+Thanks for updates.
+
+A directory theme or Plugin can help for this, which will allow to submit data from front and allow to edit data too.
+
+https://codecanyon.net/item/web-20-directory-plugin-for-wordpress/6463373?ref=vivacityinfotech
+https://wordpress.org/plugins/business-directory-plugin/
+
+But lot of things may needs to remove with them, so check which one you feels good fit.
+
+
+I will look forward for your updates.
+
+
+Thanks & Regards,
+Hemant K.
+Vivacity Infotech Pvt. Ltd.
+An ISO 9001:2015 Certified Company
+[5/21/2017 7:20:23 AM] Brandon Pinney: Either one of those look like they would work for the website. Again, the issue is that your price to create me website is too high. If you are able to do this job at a fixed price of $1,200 I would be willing to hire you.
+
+Included with that, I would like 1 month of tech support in case there are any bugs with the website that need to be fixed. One of the other candidates has offered 1 month of tech support to fix any bugs/issues with the website at the price of $750.
+
+Otherwise, I'm going to continue my search for someone who can create my website for a price that is closer to my original budget.
+
+Thanks,
+Brandon
+[5/22/2017 12:20:02 PM] Hemant Khatri: Hello Brandon
+Greetings!
+
+Hope you are doing Great!
+
+I have reviewed your message and would like to let you know that yes I am agree to do this project in $1200 as a fixed price project. But we need to first agree for theme and plugins so that I can see what features those will already have and what to be developed. Once features will be decided then I can divide project in milestone which will be helpful for us to manage the project easily.
+
+I also counting that we will use a free or paid theme so there will be no design issues to deal with, Any major changes in the website's layout for any page will needs to be discussed first to be possible to do or not in $1200 cost.
+
+Regarding your concern for providing 1 month of tech support for free , I will make sure that at the time of delivery every task that has been covered in milestone is fully functional and if you face any issue in that then I can do that 7-10 days of deliver date. I can't support 30 days, but assure you that you will not get any bugs while delivery.
+
+Please let me know what time we can discuss all features and can set milestones to get started.
+
+Please review the message and do let me know your views.
+
+Looking forward for your reply!
+
+Thanks & Regards
+Hemant K.
+Vivacity InfoTech Pvt. Ltd.
+An ISO 9001:2015 Certified Company
+[5/24/2017 5:13:49 AM] Brandon Pinney: Hi Hement,
+
+Sorry I wasn't able to get back to you yesterday I had a busy day. When we start the project I should be available on Skype 15 hours day.
+
+That sounds good. I'll want 10 days of testing then for the final milestone of the project. The Web 2.0 Directory plugin looks really good. Is this part of a theme? Or do we need to find a theme to plug that into? If you could present me with a couple of different theme options and the recommended plugins then I can make final decisions on what we should go with and you can setup the milestones.
+
+I'm fairly open to different themes whether it is free or paid. I just want the best possible theme for the website we are creating. Could you recommend to me what you think the best theme would be for the purposes of this website? What theme would you like to work with? If you can also then layout the plugins that you think would work best with that theme I can make a final decision.
+
+Then we can setup the milestones and I can fund the project. I did just think of a 2 small things I need included with this project:
+
+-When the user registers I need them to agree to a Terms of Service. Just a simple scroll box with words and a click of a box to accept. I would imagine this should be prepackaged in some themes.
+
+-I need a FAQ page. I can fill in the details of the page, I just need a link to the FAQ page from the homepage, and for the FAQ page to be created. I'd just create it myself but I don't want to mess with your coding once the homepage has been created. This should be super easy to add from our Wordpress theme.
+
+Please also provide a rough timeline of how long you think it would take you to complete the project.
+
+Thanks,
+Brandon
+[5/24/2017 4:46:34 PM] Hemant Khatri: Hello Brandon
+Greetings!
+
+Hope you are doing Great!
+
+Thanks for your reply and no problem regarding your yesterday's unavailability. It is good to know that you are looking forward to work with me. I have reviewed your message and would like to let you know that Web 2.0 Directory is a plugin which is not a part of a theme and it is a plugin only which allow users to sublist listing from front-end only. This plugin can be integrated with any of the WordPress theme available. But my concern is that we can take any theme available and then integrate our listing functionality with that.
+
+As far theme selection is concerned, I can provide you many themes but it would be good if you provide me some mockup of how and what do you want to keep on Home Page. Also there will separate listing page so what you want over there please let me know about that. Once after looking into your mock up only I can suggest you theme. I did look at your rough mock up but by looking at that it seems like we need to create that custom as we will not be having all the features provided by any Directiry Theme. Your website is based on listing items (Leagues)but it is not typical directory listing website so instead of going for any directory theme we can choose any other theme. Please review this and do let me know your views.
+
+Because a pre-build Direcotry theme will have lots of other features that we don't need, and will cause problems.
+Now for integrating registration and login functionality, we can use these plugins which allow user to register and login through front end:-
+- https://wordpress.org/plugins/profile-builder/
+- https://wordpress.org/plugins/front-end-only-users/
+- https://codecanyon.net/item/web-20-directory-plugin-for-wordpress/6463373
+
+With these free plugins, we can have users registered on our site. It provide us various fields that we can use on our site.
+
+For allowing user to create listing from front end we can use these plugins which are available which allow user to create listing from frontend:-
+- https://wordpress.org/plugins/wp-user-frontend/
+- https://easypropertylistings.com.au/extensions/frontend-submissions/
+- https://wedevs.com/wp-user-frontend-pro/
+- https://wordpress.org/plugins/front-end-publishing/
+
+These plugins will not provide us whole functionality and need to make cusomization into it so please suggest me one which you like most.
+
+For credit system implementation there are plugins available. I am providing you the list. Please have a look at them.
+
+1. https://medium.com/@AddWebSolution/wp-credit-system-with-woocommerce-5b3143150733
+2. https://woocredits.com/
+3. https://wordpress.org/plugins/woo-download-credits/
+
+For your concern for the additional two tasks regarding Terms and Service and FAQ page, I will create these pages and will be included in this project.
+
+Also for the 10 days testing before releasing the final milestone, yes you can take this time and can approve final milestone once every task listed on the milestones are done successfully.
+
+Please have a look at these themes and plugins so that we can finalize on the themes and plugins and after that I can provide you tasks in milestone and then we can start working on it.
+
+Looking forward for your reply!
+
+Thanks & Regards
+Hemant K.
+Vivacity InfoTech Pvt. Ltd.
+An ISO 9001:2015 Certified Company
+[5/26/2017 5:26:43 AM] Brandon Pinney: Hi Hement,
+
+I'm reviewing everything again and will get back to you later tonight or tomorrow.
+
+Thanks,
+Brandon
+[5/27/2017 12:55:02 AM] Brandon Pinney: Alright Hement, I went through everything and have made some decisions. That said, I am open to changes if you think it will benefit the websites.
+
+I'm open to either one of these two themes, and would like your opinion on them and how easy these themes would work with the plugins below:
+
+https://themeforest.net/item/oshine-creative-multipurpose-wordpress-theme/9545812?ref=cirvitis
+https://themeforest.net/item/massive-dynamic-wordpress-website-builder/13739153?ref=cirvitis
+
+Please let me know your thoughts on these 2 themes and if you have worked with either of them in the past.
+
+For registration and login I liked this plugin best:
+
+https://wordpress.org/plugins/profile-builder/
+
+For the Front End, I liked this plugin:
+
+https://wedevs.com/wp-user-frontend-pro/
+
+I'm open to the Web 2.0 plugin as well but it seems excessive for what we need it for.
+
+For the options you gave me for credit systems, I liked this one best:
+
+https://wordpress.org/plugins/woo-download-credits/
+
+However, I am concerned that they only have 3 reviews. Do you have other credit systems you could recommend that have more reviews? Or do you have any experience using this plugin in the past?
+
+Please let me know how you think one of those themes would work with the plugins above.
+
+Also, I did have an idea for the change of the layout of the directory. Before I had sent you those rough sketches of what I had in mind with more of an excel spreadsheet look. I think the website will be more user friendly and aesthetically pleasing if we list the fantasy leagues in a tile format intead. Please see the attached rough sketches and let me know what you think and if that is feasible. I look forward to your response.
+
+Thanks,
+Brandon
+
+[5/29/2017 1:27:24 PM] Hemant Khatri: Hello Brandon
+Greetings!
+
+Hope you are doing Great and had a nice Weekend !
+
+Thanks for your reply! I have gone through your message. I have reviewed both of your themes provided:-
+https://themeforest.net/item/oshine-creative-multipurpose-wordpress-theme/9545812?ref=vivacityinfotech
+https://themeforest.net/item/massive-dynamic-wordpress-website-builder/13739153?ref=vivacityinfotech
+
+It seems like we can use any of the theme and all the plugins would work with them. To my opinion I think we should go with this theme https://themeforest.net/item/oshine-creative-multipurpose-wordpress-theme/9545812?ref=cirvitis as it provide many layouts and we can designs pages easily. Although both the themes have various options to create page layouts. I have not worked any of this theme in the past but these are similar to the themes that I worked upon like DIVI and AVADA which are the most famous WordPress theme running now a days and I have worked on these on many websites and have expertise in these. You can view these links for more idea.
+
+- https://www.elegantthemes.com/gallery/divi/
+- https://avada.theme-fusion.com/
+
+I looked at the sketches provided by you as well. It seems like we need to customize it so as to create same like that as this does not provide in the default theme. It provide rough idea about the Home page but we need to get more ideas for that and also for other pages like individual league page, search page etc. So please update me about that as well.
+
+Regarding the plugins:-
+https://wordpress.org/plugins/wp-user-frontend/ we can use this free version plugin for allowing user to create leagues from front end. There is a paid version also available with this but we can go with the free version for now.
+
+For registration and login plugin, we will use this https://wordpress.org/plugins/profile-builder plugin which will allow user to register from front end.
+
+For the credit systems implementation, we can use this plugins https://wordpress.org/plugins/woo-download-credits/ . Regarding your concern for less reviews, I do not think that there seems to be any issue with the less reviews with the plugin's functionality so we can use this plugins. Also if you do want to use some other plugin, there is a paid plugin also available https://medium.com/@AddWebSolution/wp-credit-system-with-woocommerce-5b3143150733. Please have a look at this and let me know with which plugin we need to stick with.
+
+Also I do want to ask a query is that:-
+- Will there be any charges for a user to create league as well or they can create any league for free?
+- Only logged in users can create or join league. Un-registered users are not allowed to join or create leagues. Please do let me know if that is something you want?
+
+Please review this and do let me know your views so that we can start working on it soon. Also please do let me know if you do have some issues regarding this.
+
+Looking forward for your reply!
+
+Thanks & Regards
+Hemant K.
+Vivacity InfoTech Pvt. Ltd.
+An ISO 9001:2015 Certified Company
+[5/31/2017 4:35:12 AM] Brandon Pinney: Hey Hement,
+
+After looking over Avada, I'm okay with going with an Avada theme instead of an Oshine theme. They look fairly comparable and it will likely make this a smoother process since you have expertise with with Avada. I think the Classic or Lifestlye Template might work.
+[5/31/2017 4:43:04 AM] Brandon Pinney: As far as the design go, they are a rough idea of what I'm looking for and am open to designs similar to that. As far as your question regarding the league page and search page, I am open to the design of it depending on the design template we go with in Avada. Ideally, for the search page, once someone selects the advance search items they are looking for, all of the leagues that match that criteria would pop up in the tile format I showed in the sketches. The league page would really just layout all of the details for the league, how many credits it would cost to join and have a Join League button.
+
+For the credit plugin, I think I would be okay with either. However, I do have a question: would either of these credit plugins allow users to enter promo codes to receive? If not, is there any big advantage of getting the paid plugin instead of the free one? I didn't see a distinct difference between the two.
+
+In response to your two queries:
+
+-There will be no charge for a user to create a league, they can create one for free.
+
+-That is correct, only users that are logged in can create or join leagues. Un-registered users are not allowed to join or create.
+
+How long do you believe this project would take you to complete?
+
+Thanks,
+Brandon
+[5/31/2017 4:44:34 AM] Brandon Pinney: Sorry I didn't finish my sentence here. My question is, would either of these credit plugins allow useres to enter promo codes to receive credits?
+[5/31/2017 5:05:38 PM] Hemant Khatri: Hello Brandon
+Greetings!
+
+Hope you are doing Great!
+
+Thanks for your reply. I have reviewed your message and got to know that you liked DIVI theme most and would like to continue with that. For the search pages designs we can go with the initial layout like showing the leagues in Tile format as shown on the rough sketches. For individual Group page we can show all the fields related to that group and will show the "Join League" button at the bottom. Here I would like you to provide me all the fields that we need for showing on Group creation, group page, registration and .
+
+I do not think that there is any big advantage of using paid plugin than the free one. I provided you as it seems like you were not confident enough with the free plugin but we can use free plugin as well. As far as using the promo codes with the credit plugins I need to look into that more for finding whether these plugins provide this feature or not.
+
+I think this whole project would take around 110 - 120 hours as need to customize a lot and in doing that it will take time. Need to work on advance searching and need to customize front end plugin which allows users to create leagues from front end. Also need to work on allowing only 12 members to join the league and implementing the payment functionality. Need to work on designing leagues, search and individual league pages.
+
+Please review this and do let me know your views so that we can start working on the project.
+
+Looking forward for your reply!
+
+Thanks & Regards,
+Hemant K.
+Vivacity InfoTech Pvt. Ltd.
+An ISO 9001:2015 Certified Company
+[6/1/2017 6:47:01 AM] Brandon Pinney: Hey Hement,
+
+Thanks for your response. Can you clarify about using Divi? I had stated in my last message that I wanted to go with Avada. Are Divi and Avada the same thing? It looked like they were two different types of themes.
+
+Do you need me to provide you all of the fields for group creation now? Or can I provide you those when we reach that point in the project?
+
+Also, just to clarify what you had mentioned about only allowing 12 members to join the league...12 is a standard number that most leagues consist of. Some leagues consist of more members and some consist of less. So for example, a league could have 14 members if that is what they decide in league creation. Whatever number that is they decide in the creation of the league, that is the maximum number of people that can join. I think you were aware of that, but I just wanted to clarify based on what you had said.
+
+Do you believe you could get this project done by July 15th based on the amount of hours you believe it will take you?
+
+Thanks
+Brandon
+[6/1/2017 10:45:18 AM] Hemant Khatri: Hello Brandon
+Greetings!
+
+Hope you are doing Great!
+
+I have checked your message. I have reviewed that and would like to let you know that yes DIVI and AVADA both are different but I was talking about AVADA only and I typed DIVI by mistake. I am really sorry for the confusion. We can go with AVADA and use that as a theme.
+
+It would be good if you could please provide me all the fields related to league or profile of a user so that while working I can use those. Otherwise I will have to go with default fields and then use your provided fields. Also please provide me all the fields for registration form for a user.
+
+Regarding number of members to join the league, I have mentioned 12 just as an example but I know we can give that option for the number of members to join in a league at the time of league creation.
+
+Yes if we can get this started by tomorrow then it would be completed before july 15th provided if no more extra requirements are given.
+
+Please review this and do let me know your views so that we can start working on the project soon.
+
+Looking forward for your reply!
+
+Thanks & Regards
+Hemant K.
+Vivacity InfoTech Pvt. Ltd.
+An ISO 9001:2015 Certified Company
+[6/2/2017 4:16:38 AM] Brandon Pinney: Hey Hement,
+
+No problem on the confusion. Avada sounds great.
+
+For the user registration fields, this is what I would like:
+
+Username
+Password
+Email
+Twitter
+
+This is what I would like for the League Fields:
+
+League Name: (Blank Field)
+Commissioner: (Blank Field)
+Hosting Site: They can choose from ESPN, Yahoo, MFL, CBS, FleaFlicker, and Fantrax
+League Dues: (They need to select a dollar value from $1 to $100000)
+Payment Method: They can choose from LeagueSafe, PayPal, Venmo, Cash, or Check
+
+***Number of Teams: (number between 2 and 96)
+Owners Needed: (This needs to be a number less than the league size). So for example, they select 12 teams for 'Number of Teams', they might select 11 for 'Owners Needed' if they don't have anyone in the league yet.***
+
+^^^This entire portion could also just be shown as: 'Number of Teams Needed: 8/12'
+If that is easier.
+
+Roster Size: This will be a number between 1 and 1000
+Scoring: For Football their options will be (PPR, .5 PPR, Standard)...I haven't finalized the other scoring fields yet.
+Type: They can select from (Re-Draft, Dynasty or Devy)
+Draft Type: Snake or Auction
+Projected Draft Date: They should be able to enter a date or select 'Once League is Full'
+
+Now, under 'Other Settings' like I showed in the sketches, the Commissioner setting up the league should be able to tick these boxes and these options will show up in the League Tile if selected:
+
+SuperFlex
+IDP
+Contract League
+Best Ball
+
+If you would like to setup some milestones I can go ahead and fund the project if you do not have any further questions. I look forward to working with you Hement. Thank you for being patient.
+
+-Brandon
+[6/2/2017 4:17:15 AM] Brandon Pinney: Actually the Commissioner field should populate as the name of the person setting the league up.
+[6/2/2017 4:18:55 AM] Brandon Pinney: And we can skip the League Name field...I think that could create problems.
+[6/2/2017 3:56:11 PM] Hemant Khatri: Hello Brandon
+Greetings!
+
+Hope you are doing Great!
+
+Thanks for providing information regarding fields. I have reviewed your message and would like to let you know that we can create these fields but the most important aspect is that we need to finalize the type of field like checkbox, select, input etc. and values can be added and changes later as well. I have checked all your fields and would like to ask few queries over here:-
+
+- Regarding payment method at the time of Group creation, do we need to only allow user to select the payment method or you would like to have the users who will join that group to pay using that payment method? If that we need to implement then plugin "Credit Plugin" that we will be using does not allow to have those as payment gateway. It only has Papypal, Authorize.net, pay by check, Direct Bank transfer as a payment gateway. So please let me know your views regarding this.
+
+- Also please explain regarding "Owners Needed" field as I did not understand it in detail.
+
+- Please let me know about Purchasing Credits link where do we need to display that because this is the one that user will purchase first before joining any league.
+
+Please review this and do let me know if you have any issues with this. Also I am providing you my Skype ID so please add me on Skype so that we can discuss about the project in more detail once. My Skype ID is: developer.vivacity
+
+Looking forward to work with you Brandon!
+
+Thanks & Regards,
+Hemant K.
+Vivacity InfoTech Pvt. Ltd.
+An ISO 9001:2015 Certified Company
+[6/3/2017 4:26:40 AM] Brandon Pinney: Hement,
+
+-Only the Commissioner (league creator) will choose the 'Payment Method'. The 'Payment Method' has nothing to do with my website and is all done between the parties (The Commissioner and Users) after we release their contact information to each other. So for example, lets say the Commissioner selected "LeagueSafe" as the Payment Method, then everyone who is joining the league knows that the Payment Method for the "League Dues" (which is the entry fee each player pays to go into the League Fund which the winner of the league gets) will all be collected by the Commissioner via LeagueSafe. So that has nothing to do with any Payment Method that will actually happen on my website. The only payment on my website is the WooCredit system which allows a user to join a league of their choosing. Does this make sense? We only need our users to be able to purchase credits to join the league they want to join.
+
+-When I say the term "Owner", that is a Fantasy Football Term and is referring to the User on the website looking to join a league. Instead of the term 'Owners Needed', lets use the term 'Current Owners' so it is less confusing. Say for example, the Commissioner is setting up a League and he doesn't have anyeone else in that League yet except for himself...he would select 1 Current Owner. He also selected the number '12' under the field Total Number of Teams. Then on the field 'Current Owners' on the League Information page, it would show up as: 'Current Owners: 1/12'. As other Users select to join that league, this number would continue to rise as the league fills up. So after the first User selects to join, 'Current Owners: 1/12' would change to 'Current Owners: 2/12'. Does that make sense?
+
+As I explained earlier, I also need the Commissioner to be able to dynamically change the # of Current Owners in the league after the League has been created. So if the Commissioner has a friend that they know personally in real life that decided they wanted to join the League, the Commissioner could go in and adjust it to 'Current Owners: 3/12'. If you feel this is too difficult to do, we could instead set it up so the Commissioner has the ability to remove people who have requested to join the League, and then the Commissioner could choose to 'Finalize League' even if it is not full yet.
+
+-As far as Purchasing Credits are concerned, I would like a button under a User's profile where they can select to Purchase Credits, and I would also like a button next to the 'Join League' button under that League's Information Page. For example --> A User sees a League they want to join --> the User selects that League by clicking on the tile from the Search Page --> The User is taken to the League's Information Page where all of the League Fields are again shown, along with a Button to 'Join League' (if they already have credits) or an option to 'Buy Credits' next to it. Somewhere we need it to say that it costs 1 credit to join this League. Perhaps, we could have a fixed Field under each League that says 'Credits to Join: 1' which is controlled by the Administrator (me).
+
+I'm setup on Skype and have downloaded it to my phone, along with the Upwork App. So I should be much more accessible moving forward and will be able to contact you when I am at work. I'd prefer to keep a majority of our comminication on here, but for quick questions and clarification on certain elements I am available at brandon.kasa@gmail.com on Skype.
+
+Thanks,
+Brandon
+[6/5/2017 1:25:08 PM] Hemant Khatri: Hello Brandon,
+Greetings!
+
+Hope you are doing Great!
+
+Thanks for providing explanatory answers to my questions.
+
+-Only the Commissioner (league creator) will choose the 'Payment Method'. The 'Payment Method' has nothing to do with my website and is all done between the parties (The Commissioner and Users) after we release their contact information to each other. So for example, lets say the Commissioner selected "LeagueSafe" as the Payment Method, then everyone who is joining the league knows that the Payment Method for the "League Dues" (which is the entry fee each player pays to go into the League Fund which the winner of the league gets) will all be collected by the Commissioner via LeagueSafe. So that has nothing to do with any Payment Method that will actually happen on my website. The only payment on my website is the WooCredit system which allows a user to join a league of their choosing. Does this make sense? We only need our users to be able to purchase credits to join the league they want to join.
+
+Reply:- Ok. I got to know that "LeagueSafe" will be the payment gateway that is only for the users to select from at the time of League creation and no payment will be integrated related to this on our site. On our site, there will be only "Credits" available to users for which users have to pay and with that only they can join the league.
+
+
+-When I say the term "Owner", that is a Fantasy Football Term and is referring to the User on the website looking to join a league. Instead of the term 'Owners Needed', lets use the term 'Current Owners' so it is less confusing. Say for example, the Commissioner is setting up a League and he doesn't have anyone else in that League yet except for himself...he would select 1 Current Owner. He also selected the number '12' under the field Total Number of Teams. Then on the field 'Current Owners' on the League Information page, it would show up as: 'Current Owners: 1/12'. As other Users select to join that league, this number would continue to rise as the league fills up. So after the first User selects to join, 'Current Owners: 1/12' would change to 'Current Owners: 2/12'. Does that make sense?
+As I explained earlier, I also need the Commissioner to be able to dynamically change the # of Current Owners in the league after the League has been created. So if the Commissioner has a friend that they know personally in real life that decided they wanted to join the League, the Commissioner could go in and adjust it to 'Current Owners: 3/12'. If you feel this is too difficult to do, we could instead set it up so the Commissioner has the ability to remove people who have requested to join the League, and then the Commissioner could choose to 'Finalize League' even if it is not full yet.
+
+Reply:- Ok. Here I got to know that "Owner" will be referred as "Current Owners" and they are the users on the website who will be joining a league. They are the number of users who have joined the league. We can show this on League Information Page as "Current Owners: 1/12" and this number will keep on increasing once user join the league. Also you want to have feature like if the commissioner wants to add his friend to the league they they can delete any user who has already created the league and can add his new member. But for this I do have a query:-
+
+- Once that user is deleted, do we need to send them any email regarding "you have been removed from the league"?
+- Also what about the payment? Do we need to return payment(credit) to him or what needs to be done?
+- Also once the league is completed do we need to show any message into that is any user wants to join that league?
+- Just to make sure that you will not add your friend as a member, user have to register using normal process and then add themselves as a user?
+- Please confirm if is there any expiration date for the league that the commissioner can select?
+
+- As far as Purchasing Credits are concerned, I would like a button under a User's profile where they can select to Purchase Credits, and I would also like a button next to the 'Join League' button under that League's Information Page. For example --> A User sees a League they want to join --> the User selects that League by clicking on the tile from the Search Page --> The User is taken to the League's Information Page where all of the League Fields are again shown, along with a Button to 'Join League' (if they already have credits) or an option to 'Buy Credits' next to it. Somewhere we need it to say that it costs 1 credit to join this League. Perhaps, we could have a fixed Field under each League that says 'Credits to Join: 1' which is controlled by the Administrator (me).
+
+Reply:- Here I got to know that we will provide a button under User's Profile where they can select to Purchase Credits. Along with this you also want to add that button next to "Join League" button under the League's Information page. There will be a "Join League" button is a user have already buys the credits and if not then there would be a "Buy Credits" option.
+
+I have send you request on Skype so please accept the request so that we can discuss in detail over there.
+
+Please review this and let me know your reviews.
+
+Looking forward for your reply!
+
+Thanks & Regards
+Hemant K.
+Vivacity InfoTech Pvt. Ltd.
+An ISO 9001:2015 Certified Company
+[6/5/2017 8:15:21 PM] Brandon Pinney: Hi Hement,
+
+Thanks for the reply. I'm reviewing everything on my flights today and will reply back to you when I get to my hotel tonight.
+
+Thanks,
+Brandon
+[6/6/2017 5:52:21 AM] Brandon Pinney: Hey Hement,
+
+I'm doing well, thanks. I hope you're having a good day.
+
+To clarify your question about the Commissioner adjusting the Users in the league:
+
+-Yes, if it is possible I'd like an email to go to that person that says the Commissioner has removed you from this league, you will not be charged a credit.
+
+-Remember, that the Users aren't charged when they 'Join League', they are charged once the League is full and the contact information is exchanged. So when that League reaches Current Owners: 12/12, then each of those users is charged their credit. If it is possible I'd like to have the Commissioner hit a 'Finalize League' button that triggers the release of information between them and the Owners. This should also remove the league from the searchable database.
+
+-I'm not certain I understand what you're trying to ask with this question. Are you asking if a message will show up to other Users when the League is full? Ideally, once the League is full (Current Owners: 12/12), the 'Join League' button should not be clickable.
+
+-We don't need a Commissioner's friend to be a User to have them added to the league. Because if someone is a personal friend and they already have their friend's contact information, they would not want to have to register and pay for a credit since they already know each other. I just need the commissioner to adjust the amount of Owners they are looking for. So if they were originally looking for 11 Owners, but then they have their personal friend who wants to join, they can adjust it to 'Current Owners: 2/12' because now they are only looking for 10 Owners. We can discuss this more via chat if that still isn't clear.
+
+-There is no expiration date for the League. The League should just disappear from the searchable database once it is full 'Current Owners: 12/12' and the Commissioner clicks 'Finalize League'.
+
+I will make sure I am on Skype tomorrow to chat and clarify any of this if it still doesn't make sense. I drive a lot for my job but should be able to respond every 30-45 minutes to quick questions and will be available for more in-depth conversations at 5pm EST.
+
+Thanks,
+Brandon
+
+[6/7/2017 5:12:48 PM] Hemant Khatri: Hello Brandon,
+Greetings!
+
+Yes, I got your skype contact and now I am able to communicate with you via Skype.
+
+I saw that you requested 5PM EST, but that means 2:30AM in midnight my time, that seems not possible.
+
+So can you please available in your morning from 7AM to 10 AM, that will be mine Afternoon.
+
+Couple of more questions:
+
+#1 If a league is full with owners, do I needs to hide a join button?
+
+#2 If a league is finalize by commissioner by clicking or pushing a button on his account dashboard then it may be happen that the owners user who requested to join might not have enough credit in their account to be considered? In that case what will happen?
+
+#3 A league is finalized with both conditions or any one of these?
+it is full 'Current Owners: 12/12' and the Commissioner clicks 'Finalize League'
+
+Looking forward for your reply!
+
+Thanks & Regards
+Hemant K.
+Vivacity InfoTech Pvt. Ltd.
+An ISO 9001:2015 Certified Company
+[6/9/2017 4:15:11 AM] Brandon Pinney: I can usually be available from 7am-730am but then I drive the rest of the day so my communication will be intermittent:
+
+1 - yes if the league is full the join button should be hidden
+
+2 - ideally, we would only want a User to be able to "join league" if they have enough credits in their account. Does that make sense? Is that possible for you to do?
+
+3 - a league is finalized with both conditions. It is 12/12 and the commission clicks finalize league
+
+I'm going to be driving again for awhile and will try to respond again at my next stop

@@ -1,0 +1,22 @@
+/**
+ * Theme Name:  Freelance Cape Town
+ * Template:	tm-beans
+ * Theme URI:   http://www.simondowdles.com/
+ * Description: Freelance Cape Town
+ * Author:      Simon Dowdles
+ * Author URI:  http://www.simondowdles.com
+ * Version:     0.1.0
+ * Tags:
+ * Text Domain: sd
+ *
+ * License:     GPLv2+
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
+.emailsend{
+ color: green;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+  	 text-align: center;
+ }

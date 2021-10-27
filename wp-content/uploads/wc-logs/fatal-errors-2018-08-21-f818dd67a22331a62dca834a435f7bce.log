@@ -1,0 +1,70 @@
+2018-08-21T10:17:39+00:00 CRITICAL Uncaught exception 'Exception' with message 'Invalid order.' in /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:100
+Stack trace:
+#0 /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(156): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /usr/www/users/freelwvxtu/wp-content/themes/freelance-cape-town/template-manage-billing.php(1231): WC_Abstract_Order->__construct(526)
+#3 [internal function]: sd_view_content('')
+#4 /usr/www/users/freelwvxtu/wp-includes/class-wp-hook.php(286): call_user_func_array('sd_view_content', Array)
+#5 /usr/www/users/freelwvxtu/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /usr/www/users/freelwvxtu/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 [internal function]: do_action('beans_main_appe
+
+2018-08-21T10:18:11+00:00 CRITICAL Uncaught exception 'Exception' with message 'Invalid order.' in /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:100
+Stack trace:
+#0 /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(156): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /usr/www/users/freelwvxtu/wp-content/themes/freelance-cape-town/template-manage-billing.php(1231): WC_Abstract_Order->__construct(526)
+#3 [internal function]: sd_view_content('')
+#4 /usr/www/users/freelwvxtu/wp-includes/class-wp-hook.php(286): call_user_func_array('sd_view_content', Array)
+#5 /usr/www/users/freelwvxtu/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /usr/www/users/freelwvxtu/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 [internal function]: do_action('beans_main_appe
+
+2018-08-21T10:42:54+00:00 CRITICAL Uncaught exception 'Exception' with message 'Invalid order.' in /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:100
+Stack trace:
+#0 /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(156): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /usr/www/users/freelwvxtu/wp-content/themes/freelance-cape-town/template-manage-billing.php(1231): WC_Abstract_Order->__construct(2558)
+#3 [internal function]: sd_view_content('')
+#4 /usr/www/users/freelwvxtu/wp-includes/class-wp-hook.php(286): call_user_func_array('sd_view_content', Array)
+#5 /usr/www/users/freelwvxtu/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /usr/www/users/freelwvxtu/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 [internal function]: do_action('beans_main_app
+
+2018-08-21T10:43:19+00:00 CRITICAL Uncaught exception 'Exception' with message 'Invalid order.' in /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:100
+Stack trace:
+#0 /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(156): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /usr/www/users/freelwvxtu/wp-content/themes/freelance-cape-town/template-manage-billing.php(1231): WC_Abstract_Order->__construct(526)
+#3 [internal function]: sd_view_content('')
+#4 /usr/www/users/freelwvxtu/wp-includes/class-wp-hook.php(286): call_user_func_array('sd_view_content', Array)
+#5 /usr/www/users/freelwvxtu/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /usr/www/users/freelwvxtu/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 [internal function]: do_action('beans_main_appe
+
+2018-08-21T12:30:14+00:00 CRITICAL Function name must be a string
+
+2018-08-21T12:30:32+00:00 CRITICAL Function name must be a string
+
+2018-08-21T12:47:41+00:00 CRITICAL Uncaught exception 'Exception' with message 'Invalid order.' in /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:100
+Stack trace:
+#0 /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(156): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /usr/www/users/freelwvxtu/wp-content/themes/freelance-cape-town/template-manage-billing.php(1231): WC_Abstract_Order->__construct(526)
+#3 [internal function]: sd_view_content('')
+#4 /usr/www/users/freelwvxtu/wp-includes/class-wp-hook.php(286): call_user_func_array('sd_view_content', Array)
+#5 /usr/www/users/freelwvxtu/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /usr/www/users/freelwvxtu/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 [internal function]: do_action('beans_main_appe
+
+2018-08-21T18:39:00+00:00 CRITICAL Uncaught exception 'Exception' with message 'Invalid order.' in /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:100
+Stack trace:
+#0 /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(156): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /usr/www/users/freelwvxtu/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /usr/www/users/freelwvxtu/wp-content/themes/freelance-cape-town/template-manage-billing.php(1231): WC_Abstract_Order->__construct(526)
+#3 [internal function]: sd_view_content('')
+#4 /usr/www/users/freelwvxtu/wp-includes/class-wp-hook.php(286): call_user_func_array('sd_view_content', Array)
+#5 /usr/www/users/freelwvxtu/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /usr/www/users/freelwvxtu/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 [internal function]: do_action('beans_main_appe
+

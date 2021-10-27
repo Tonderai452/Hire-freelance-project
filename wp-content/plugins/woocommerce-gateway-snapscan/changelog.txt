@@ -1,0 +1,8 @@
+*** WooCommerce Gateway SnapScan Changelog ***
+
+2016.01.27 - version 1.0.1
+ * Ensures the 'woo-includes' directory is referenced correctly.
+   woocommerce-gateway-snapscan.php
+
+2015.12.10 - version 1.0.0
+ * First Release

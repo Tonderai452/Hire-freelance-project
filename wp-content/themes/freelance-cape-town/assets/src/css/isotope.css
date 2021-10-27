@@ -1,0 +1,98 @@
+
+.isotope-item {
+    background: #f5f5f5 none repeat scroll 0 0;
+    color: #484848;
+    display: block;
+    float: left;
+    height: auto !important;
+    margin: 10px 0 10px 2%;
+    overflow: hidden;
+    position: relative;
+    transition-duration: 0.8s;
+    transition-property: transform, opacity;
+    width: 29%;
+    min-height:inherit !important;
+}
+
+.Te-article {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+
+
+/*Details*/
+
+.Te-article-detail {
+    background: #f0f0f0 !important;
+    border-radius: 20px;
+    margin: 40px auto 0;
+    max-width: 870px;
+    padding: 40px;
+}
+
+
+
+/** Animate Css */
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+.numberoflikes {
+    color: #857c42;
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    height: 27px;
+    margin: 0 3px 0 0;
+    overflow: hidden;
+}
